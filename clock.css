@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: bold 12px arial, Helvetical, sans-serif;
+    background-color: rgb(185, 8, 8);
+}
+.clock{
+    border: 5px solid #0bda84;
+    color: rgb(27, 220, 24);
+    padding: 50px;
+    border-radius: 200px;
+    background-color: #e6dde2;
+}
+#Date{
+    font-size: 20px !important;
+    text-align: center;
+}
+.clock ul{
+    list-style: none;
+    display: flex;
+    font-size: 90px;
+    gap: 15px;
+}
